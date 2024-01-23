@@ -1,0 +1,162 @@
+repo_name: todaypp/dotenv
+report_id: ba676d95c6f0e10866106bd11428c2b6
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T13:13:26+00:00'
+requested_by: motdotla
+provider: github
+branch: master
+detected_tools_count: 12
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/todaypp/dotenv
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/todaypp/dotenv
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/todaypp/dotenv/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: MrSnoozles
+  last_updated_on: 2021-05-05 14:07:33.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/todaypp/dotenv
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/todaypp/dotenv/blob/master/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: Scott Motte
+  last_updated_on: 2023-05-25 17:45:27.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 14.0.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/todaypp/dotenv/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kirtan Desai
+  last_updated_on: 2022-10-21 20:46:47.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/todaypp/dotenv/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: scottmotte
+  last_updated_on: 2013-07-05 18:24:28.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 14.18.32
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/todaypp/dotenv/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kirtan Desai
+  last_updated_on: 2022-10-21 20:46:47.000000000 Z
+- name: standard
+  description: JavaScript Standard Style
+  package_url: https://www.npmjs.com/standard
+  version: 17.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15878/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/todaypp/dotenv/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kirtan Desai
+  last_updated_on: 2022-10-21 20:46:47.000000000 Z
+- name: standard-version
+  description: Replacement for `npm version` with automatic CHANGELOG generation
+  package_url: https://www.npmjs.com/standard-version
+  version: 9.5.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16053/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/todaypp/dotenv/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Scott Motte
+  last_updated_on: 2023-06-17 16:47:20.000000000 Z
+- name: tap
+  description: A Test-Anything-Protocol library for JavaScript
+  package_url: https://www.npmjs.com/tap
+  version: 16.3.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16027/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: https://github.com/todaypp/dotenv/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: scottmotte
+  last_updated_on: 2013-07-05 18:24:28.000000000 Z
+- name: tar
+  description: Tar for node
+  package_url: https://www.npmjs.com/tar
+  version: 6.1.11
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16466/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/todaypp/dotenv/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: scottmotte
+  last_updated_on: 2013-07-05 18:24:28.000000000 Z
